@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="travel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="logo">CHS Tours & Travels</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Countries</a>
+            <a href="#">About Us</a>
+            <a href="#">Packages</a>
+            <button class="register">Register</button>
+        </div>
+    </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div> 
+    <section>
+        <span>Ready to Explore...?</span>
+        <h1>Adventure Awaits...!!!</h1>
+        <p>Your dream vacation is just a click away.</p>
+        <a href="#">Book Now</a>
+    </section>
+</header>
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('show');
+    }
+</script>
+</body>
+</html>
